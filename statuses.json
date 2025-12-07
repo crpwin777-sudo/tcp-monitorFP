@@ -5,9 +5,9 @@
     "port": 21232,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:22.903823+00:00"
+    "last_check": "2025-12-07T18:41:09.983659+00:00"
   },
   "7.tcp.ngrok.io:21267": {
     "name": "WPC 2 Perro123",
@@ -15,9 +15,9 @@
     "port": 21267,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:22.989110+00:00"
+    "last_check": "2025-12-07T18:41:10.013608+00:00"
   },
   "7.tcp.ngrok.io:22607": {
     "name": "WPC 3 flugegeheimen",
@@ -25,9 +25,9 @@
     "port": 22607,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:23.082468+00:00"
+    "last_check": "2025-12-07T18:41:10.063265+00:00"
   },
   "cristian-host.ddns.net:3389": {
     "name": "WPC 4 Redondito1",
@@ -35,9 +35,9 @@
     "port": 3389,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:23.307519+00:00"
+    "last_check": "2025-12-07T18:41:10.218413+00:00"
   },
   "7.tcp.ngrok.io:22591": {
     "name": "WPC 4 Redondito1 ngrok",
@@ -45,9 +45,9 @@
     "port": 22591,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:23.537182+00:00"
+    "last_check": "2025-12-07T18:41:10.311668+00:00"
   },
   "tania-host.ddns.net:3389": {
     "name": "DPC 1 vkmovineitor",
@@ -55,9 +55,9 @@
     "port": 3389,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:23.782184+00:00"
+    "last_check": "2025-12-07T18:41:10.472983+00:00"
   },
   "7.tcp.ngrok.io:27302": {
     "name": "DPC 1 vkmovineitor ngrok",
@@ -65,19 +65,19 @@
     "port": 27302,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:23.871850+00:00"
+    "last_check": "2025-12-07T18:41:10.565431+00:00"
   },
   "lucas-host.ddns.net:3389": {
     "name": "DPC 2 DaLeFer",
     "host": "lucas-host.ddns.net",
     "port": 3389,
-    "combined": "",
-    "consec_fails": 2,
+    "combined": "offline",
+    "consec_fails": 3,
     "consec_success": 0,
-    "offline_since": null,
-    "last_check": "2025-12-07T18:40:25.630825+00:00"
+    "offline_since": "2025-12-07T18:41:12.274999+00:00",
+    "last_check": "2025-12-07T18:41:12.275022+00:00"
   },
   "3.tcp.ngrok.io:27951": {
     "name": "DPC 2 DaLeFer ngrok",
@@ -85,9 +85,9 @@
     "port": 27951,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:25.708650+00:00"
+    "last_check": "2025-12-07T18:41:12.575067+00:00"
   },
   "candela-host.ddns.net:3389": {
     "name": "DPC 3 MACOCO",
@@ -95,9 +95,9 @@
     "port": 3389,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:25.881554+00:00"
+    "last_check": "2025-12-07T18:41:12.725572+00:00"
   },
   "5.tcp.ngrok.io:21764": {
     "name": "DPC 3 MACOCO ngrok",
@@ -105,9 +105,9 @@
     "port": 21764,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:25.963394+00:00"
+    "last_check": "2025-12-07T18:41:12.786569+00:00"
   },
   "agus2-host.ddns.net:3389": {
     "name": "DPC 4 ElKapo",
@@ -115,9 +115,9 @@
     "port": 3389,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:26.186786+00:00"
+    "last_check": "2025-12-07T18:41:12.940755+00:00"
   },
   "3.tcp.ngrok.io:27677": {
     "name": "DPC 4 ElKapo ngrok",
@@ -125,9 +125,9 @@
     "port": 27677,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:26.267016+00:00"
+    "last_check": "2025-12-07T18:41:12.990934+00:00"
   },
   "roman-host.ddns.net:3389": {
     "name": "DPC 5 remanso",
@@ -135,9 +135,9 @@
     "port": 3389,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:26.442107+00:00"
+    "last_check": "2025-12-07T18:41:13.141578+00:00"
   },
   "5.tcp.ngrok.io:21766": {
     "name": "DPC 5 remanso ngrok",
@@ -145,29 +145,29 @@
     "port": 21766,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:26.513652+00:00"
+    "last_check": "2025-12-07T18:41:13.171301+00:00"
   },
   "vanesa-host.ddns.net:3389": {
     "name": "DPC 6 LaJefa",
     "host": "vanesa-host.ddns.net",
     "port": 3389,
-    "combined": "",
-    "consec_fails": 2,
+    "combined": "offline",
+    "consec_fails": 3,
     "consec_success": 0,
-    "offline_since": null,
-    "last_check": "2025-12-07T18:40:33.991371+00:00"
+    "offline_since": "2025-12-07T18:41:20.597841+00:00",
+    "last_check": "2025-12-07T18:41:20.597864+00:00"
   },
   "5.tcp.ngrok.io:24298": {
     "name": "DPC 6 LaJefa ngrok",
     "host": "5.tcp.ngrok.io",
     "port": 24298,
-    "combined": "",
-    "consec_fails": 2,
+    "combined": "offline",
+    "consec_fails": 3,
     "consec_success": 0,
-    "offline_since": null,
-    "last_check": "2025-12-07T18:40:35.691252+00:00"
+    "offline_since": "2025-12-07T18:41:22.255951+00:00",
+    "last_check": "2025-12-07T18:41:22.255976+00:00"
   },
   "5.tcp.ngrok.io:27564": {
     "name": "remoto",
@@ -175,8 +175,8 @@
     "port": 27564,
     "combined": "",
     "consec_fails": 0,
-    "consec_success": 2,
+    "consec_success": 3,
     "offline_since": null,
-    "last_check": "2025-12-07T18:40:35.795117+00:00"
+    "last_check": "2025-12-07T18:41:22.306651+00:00"
   }
 }
