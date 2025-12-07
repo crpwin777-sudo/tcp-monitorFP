@@ -1,0 +1,16 @@
+name: TG Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Run Test Telegram Message
+      run: |
+        echo "Sending test message..."
+        curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+          -H "Content-Type: application/json" \
+          -d "{\"chat_id\": \"${{ secrets.TELEGRAM_CHAT_ID }}\", \"text\": \"TEST from GitHub Actions\", \"parse_mode\": \"HTML\"}"
