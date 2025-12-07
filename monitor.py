@@ -52,11 +52,26 @@ def now_iso():
 # ---------------------------
 #  DEVICES TO MONITOR
 # ---------------------------
-#targets = [
-#   {"name": "DPC 6 LaJefa", "host": "vanesa-host.ddns.net", "port": 3389},
-#   {"name": "DPC 5 AdminPC", "host": "example2.ddns.net", "port": 3389},
-#   {"name": "DPC 4 Backup", "host": "example3.ddns.net", "port": 3389}
-#]
+targets = [
+   {"name": "WPC 1 Denyarich", "host": "7.tcp.ngrok.io", "port": 21232},
+   {"name": "WPC 2 Perro123", "host": "7.tcp.ngrok.io", "port": 21267},
+   {"name": "WPC 3 flugegeheimen", "host": "7.tcp.ngrok.io", "port": 22607}
+   {"name": "WPC 4 Redondito1", "host": "cristian-host.ddns.net", "port": 3389}
+   {"name": "WPC 4 Redondito1 ngrok", "host": "7.tcp.ngrok.io", "port": 22591}
+   {"name": "DPC 1 vkmovineitor", "host": "tania-host.ddns.net", "port": 3389}
+   {"name": "DPC 1 vkmovineitor ngrok", "host": "7.tcp.ngrok.io", "port": 27302}
+   {"name": "DPC 2 DaLeFer", "host": "lucas-host.ddns.net", "port": 3389}
+   {"name": "DPC 2 DaLeFer  ngrok", "host": "3.tcp.ngrok.io", "port": 27951}
+   {"name": "DPC 3 MACOCO", "host": "candela-host.ddns.net", "port": 3389}
+   {"name": "DPC 3 MACOCO ngrok", "host": "5.tcp.ngrok.io", "port": 21764}
+   {"name": "DPC 4 ElKapo", "host": "agus2-host.ddns.net", "port": 3389}
+   {"name": "DPC 4 ElKapo ngrok", "host": "3.tcp.ngrok.io", "port": 27677}
+   {"name": "DPC 5 remanso", "host": "roman-host.ddns.net", "port": 3389}
+   {"name": "DPC 5 remanso ngrok", "host": "5.tcp.ngrok.io", "port": 21766}
+   {"name": "DPC 6 LaJefa", "host": "vanesa-host.ddns.net", "port": 3389}
+   {"name": "DPC 6 LaJefa ngrok", "host": "5.tcp.ngrok.io", "port": 24298}
+   {"name": "remoto", "host": "5.tcp.ngrok.io", "port": 27564}
+]
 # Добавь свои ПК по шаблону ↑↑↑
 
 # ---------------------------
