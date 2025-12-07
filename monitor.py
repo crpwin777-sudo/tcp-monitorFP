@@ -52,11 +52,11 @@ def now_iso():
 # ---------------------------
 #  DEVICES TO MONITOR
 # ---------------------------
-targets = [
-    {"name": "DPC 6 LaJefa", "host": "vanesa-host.ddns.net", "port": 3389},
-    {"name": "DPC 5 AdminPC", "host": "example2.ddns.net", "port": 3389},
-    {"name": "DPC 4 Backup", "host": "example3.ddns.net", "port": 3389}
-]
+#targets = [
+#   {"name": "DPC 6 LaJefa", "host": "vanesa-host.ddns.net", "port": 3389},
+#   {"name": "DPC 5 AdminPC", "host": "example2.ddns.net", "port": 3389},
+#   {"name": "DPC 4 Backup", "host": "example3.ddns.net", "port": 3389}
+#]
 # Добавь свои ПК по шаблону ↑↑↑
 
 # ---------------------------
