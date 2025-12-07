@@ -1,23 +1,22 @@
-name: tcp-monitor
+name: TCP Monitor
 
-# Запуск по расписанию + можно запускать вручную
 on:
   schedule:
-    # каждое 5 минут (пример). Можно изменить под свои нужды.
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
+    - cron: "*/5 * * * *"   # каждые 5 минут
+  workflow_dispatch:        # возможность запускать вручную
 
 permissions:
-  contents: write   # нужно чтобы action мог коммитить statuses.json обратно
+  contents: write
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: true   # чтобы GITHUB_TOKEN был доступен для git push
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -38,9 +37,11 @@ jobs:
           RETRIES_PER_CHECK: ${{ secrets.RETRIES_PER_CHECK || '2' }}
           RETRY_DELAY_SEC: ${{ secrets.RETRY_DELAY_SEC || '0.7' }}
           CONNECT_TIMEOUT: ${{ secrets.CONNECT_TIMEOUT || '3.0' }}
+          DRY_RUN: ${{ secrets.DRY_RUN || 'false' }}
         run: |
+          echo "Starting monitor.py"
           python monitor.py
-          echo "exit_code:$?"
+          echo "monitor.py finished"
 
       - name: Commit statuses.json if changed
         run: |
