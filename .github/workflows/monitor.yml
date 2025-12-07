@@ -2,7 +2,7 @@ name: TCP Monitor
 
 on:
   schedule:
-    - cron: "*/2 * * * *"   # каждые 5 минут
+    - cron: "*/3 * * * *"   # каждые 3 минут
   workflow_dispatch:        # возможность запускать вручную
 
 permissions:
