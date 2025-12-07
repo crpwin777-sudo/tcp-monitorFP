@@ -4,29 +4,29 @@
     "host": "vanesa-host.ddns.net",
     "port": 3389,
     "combined": "offline",
-    "consec_fails": 2,
+    "consec_fails": 3,
     "consec_success": 0,
     "offline_since": "2025-12-07T19:50:36.402488+00:00",
-    "last_check": "2025-12-07T19:51:07.068654+00:00"
+    "last_check": "2025-12-07T19:56:22.548268+00:00"
   },
   "example2.ddns.net:3389": {
     "name": "DPC 5 AdminPC",
     "host": "example2.ddns.net",
     "port": 3389,
     "combined": "offline",
-    "consec_fails": 2,
+    "consec_fails": 3,
     "consec_success": 0,
     "offline_since": "2025-12-07T19:50:36.945940+00:00",
-    "last_check": "2025-12-07T19:51:07.079869+00:00"
+    "last_check": "2025-12-07T19:56:22.569035+00:00"
   },
   "example3.ddns.net:3389": {
     "name": "DPC 4 Backup",
     "host": "example3.ddns.net",
     "port": 3389,
     "combined": "offline",
-    "consec_fails": 2,
+    "consec_fails": 3,
     "consec_success": 0,
     "offline_since": "2025-12-07T19:50:37.410554+00:00",
-    "last_check": "2025-12-07T19:51:07.087114+00:00"
+    "last_check": "2025-12-07T19:56:22.603037+00:00"
   }
 }
